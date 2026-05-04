@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETS-Bolou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1>ETS-Bolou</h1>
+        <h2 style="color:gold; font-weight:bold;">
+    ETS-Bolou
+</h2>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="menu">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero fade-in">
+    <h2>Votre partenaire de confiance</h2>
+    <p>Commerce • Transport • Immobilier</p>
+    <a href="#contact" class="btn">Nous contacter</a>
+</section>
+
+<section id="about" class="about fade-in">
+    <h2>À propos</h2>
+    <p>
+        ETS-Bolou est une entreprise dynamique basée à Abidjan.
+        Nous sommes spécialisés dans le commerce d’alcool, le transport et la logistique,
+        ainsi que dans l’immobilier.
+    </p>
+</section>
+
+<section id="services" class="services">
+    <h2>Nos Services</h2>
+
+    <div class="cards">
+        <div class="card fade-in">
+            <h3>🍷 Commerce d’alcool</h3>
+            <p>Importation, exportation et distribution de produits de qualité.</p>
+        </div>
+
+        <div class="card fade-in">
+            <h3>🚛 Transport & Logistique</h3>
+            <p>Livraison rapide, sécurisée et efficace de vos marchandises.</p>
+        </div>
+
+        <div class="card fade-in">
+            <h3>🏢 Immobilier</h3>
+            <p>Achat, vente et location avec accompagnement professionnel.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact fade-in">
+    <h2>Contact</h2>
+    <p>📞 +225 0707753916</p>
+    <p>📍 03 BP 35 Abidjan 03</p>
+
+    <form>
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message"></textarea>
+        <button>Envoyer</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 ETS-Bolou - Tous droits réservés</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
