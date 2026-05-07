@@ -10,11 +10,12 @@
 
 <header>
     <nav class="navbar">
-        <h1>ETS-Bolou</h1>
-        <h2 style="color:gold; font-weight:bold;">
-    ETS-Bolou
-</h2>
+        <div class="logo-container">
+            <span>ETS-Bolou</span>
+        </div>
+
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
         <ul id="menu">
             <li><a href="#home">Accueil</a></li>
             <li><a href="#about">À propos</a></li>
@@ -24,52 +25,66 @@
     </nav>
 </header>
 
+<!-- HERO -->
 <section id="home" class="hero fade-in">
     <h2>Votre partenaire de confiance</h2>
-    <p>Commerce • Transport • Immobilier</p>
+    <p>Boissons • IT • Transport • Immobilier</p>
     <a href="#contact" class="btn">Nous contacter</a>
 </section>
 
+<!-- ABOUT -->
 <section id="about" class="about fade-in">
     <h2>À propos</h2>
     <p>
         ETS-Bolou est une entreprise dynamique basée à Abidjan.
-        Nous sommes spécialisés dans le commerce d’alcool, le transport et la logistique,
-        ainsi que dans l’immobilier.
+        Nous sommes spécialisés dans la vente de boissons, les services informatiques,
+        le transport et la logistique ainsi que l’immobilier.
+        Nous offrons des solutions fiables et professionnelles adaptées à chaque client.
     </p>
 </section>
 
+<!-- SERVICES -->
 <section id="services" class="services">
     <h2>Nos Services</h2>
 
     <div class="cards">
+
         <div class="card fade-in">
-            <h3>🍷 Commerce d’alcool</h3>
-            <p>Importation, exportation et distribution de produits de qualité.</p>
+            <h3>🍷 Vente de boissons</h3>
+            <p>Distribution de boissons de qualité.</p>
         </div>
 
         <div class="card fade-in">
-            <h3>🚛 Transport & Logistique</h3>
-            <p>Livraison rapide, sécurisée et efficace de vos marchandises.</p>
+            <h3>💻 Services IT</h3>
+            <p>Création de sites web et solutions digitales.</p>
+        </div>
+
+        <div class="card fade-in">
+            <h3>🚛 Transport</h3>
+            <p>Livraison rapide et sécurisée.</p>
         </div>
 
         <div class="card fade-in">
             <h3>🏢 Immobilier</h3>
-            <p>Achat, vente et location avec accompagnement professionnel.</p>
+            <p>Achat, vente et location.</p>
         </div>
+
     </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact" class="contact fade-in">
     <h2>Contact</h2>
     <p>📞 +225 0707753916</p>
     <p>📍 03 BP 35 Abidjan 03</p>
 
+    <a href="https://wa.me/2250707753916" class="btn whatsapp">WhatsApp</a>
+
     <form>
         <input type="text" placeholder="Votre nom" required>
         <input type="email" placeholder="Votre email" required>
         <textarea placeholder="Votre message"></textarea>
-        <button>Envoyer</button>
+        <button type="submit">Envoyer</button>
     </form>
 </section>
 
@@ -78,5 +93,6 @@
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
